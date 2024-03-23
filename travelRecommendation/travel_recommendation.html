@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abduel TravelBloom
-    </title>
+    <link rel="stylesheet" href="style.css">
+    <title>Abduel TravelBloom</title>
 </head>
 <body>
-    <header class="navbar container">
-        <nav>
-            <p>Abduel TravelBloom</p>
-            <ul>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Contact Us</li>
-            </ul>
+    <header class="navbar">
+        <p class="navbar__name">Abduel TravelBloom</p>
+ 
+        <ul class="navbar__menu">
+            <li class="navbar__link"> <a href="#home">Home</a></li>
+            <li class="navbar__link"> <a href="#about">About Us</a></li>
+            <li class="navbar__link"> <a href="#contact">Contact Us</a></li>
+        </ul>
 
-            <input type="text">
-            <button>Search</button>
-            <button>Clear</button>
-        </nav>
+        <form class="navbar__search-bar">
+            <input type="text" class="navbar__search-input" placeholder="Enter a destination or keyword">
+            <button class="navbar__search-button">Search</button>
+            <button class="navbar__search-button" type="reset">Clear</button>
+        </form>
     </header>
 </body>
 </html>
