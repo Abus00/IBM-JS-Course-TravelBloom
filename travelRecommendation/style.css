@@ -448,3 +448,85 @@ a {
 	font-size: 20px;
 	padding-left: 60px;
 }
+
+/* CONTACT SECTION PART ----------------------------------------------------------------------- */
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-top: 100px;
+	margin-left: 80px;
+}
+
+.contact__header {
+	color: white;
+	text-decoration: underline;
+	font-size: 80px;
+	margin-bottom: 20px;
+}
+
+.contact__form {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 60%;
+	margin-top: 50px;
+}
+
+.contact__form-label {
+	color: white;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+.contact__form-input-name {
+	width: 50%;
+	height: 30px;
+	border-radius: 5px;
+	border: none;
+	background-color: rgba(147, 147, 147, 0.8);
+	color: white;
+	border: none;
+}
+
+.contact__form-input-email {
+	width: 50%;
+	height: 30px;
+	border-radius: 5px;
+	border: none;
+	background-color: rgba(147, 147, 147, 0.8);
+	color: white;
+	border: none;
+}
+
+.contact__form-input-textarea {
+	width: 50%;
+	height: 100px;
+	border-radius: 5px;
+	border: none;
+	background-color: rgba(147, 147, 147, 0.8);
+	color: white;
+	border: none;
+	margin-bottom: 30px;
+}
+
+.contact__form-button {
+	width: 50%;
+	height: 30px;
+	border-radius: 5px;
+	border: none;
+	background-color: rgb(3, 224, 253);
+	color: black;
+	font-style: italic;
+	font-weight: 500;
+	transition: transform 0.2s ease;
+}
+
+.contact__form-button:hover {
+	background-color: rgb(3, 224, 253);
+	transform: translate(-3px, -1px);
+	cursor: pointer;
+}
